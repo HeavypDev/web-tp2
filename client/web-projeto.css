@@ -1,0 +1,54 @@
+/* CSS declarations go here */
+.main_container{   
+ margin-top: 0px;
+ margin-left: 4%;	
+ margin-right: 4%;
+ padding: 0px;
+ background-color: #cfcfcb;
+}
+
+.navbar-right{
+	margin-right: 15%;
+}
+
+h1 {
+	text-align: center;
+	font-family: Verdana;
+}
+
+#home{
+	white-space: preline;
+	line-height: 30px;
+	font-family: Times ;
+	font-style: italic;
+	font-size: 24px;
+	color: #aaaaaa;
+}
+
+.container{
+ display: block;
+ position: absolute;
+ top: 52px;
+ bottom: 0px;
+ right: 0px;
+ left: 0px;
+ margin-left: 4%; 
+ padding-right: 15px;
+ padding-left: 15px;
+ width: 92%; 
+ background-color: #dddd99;
+}
+
+.dhx_cal_container{
+	margin-top:3%;
+	width: 100%; 
+	height: 75vh;
+}
+
+.header_logo{
+	position: relative;
+    width: 55px;
+    height: 45px;
+	top: -12px;
+}
+

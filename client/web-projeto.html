@@ -1,0 +1,99 @@
+<head>
+        <meta charset="UTF-8">
+        <title>Empreendimentos S.A.</title>
+</head>
+	
+<body class="main_container">
+
+	<!--barra de navegacao-->
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			  <a class="navbar-brand" href="/">
+				<img class="header_logo" src="/images/schedule3.png">
+			  </a>
+			</div>
+			<div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">HOME</a></li>
+				<li><a href="tarefas">TAREFAS</a></li>
+				<li><a href="usuario">USUARIO</a></li>
+				<li><a href="calendario">CALENDARIO</a></li> 
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				   <li><a href="#"><span class="glyphicon glyphicon-user"></span> {{> loginButtons}}</a></li>
+				   <!--li><a href="#"><span class="glyphicon glyphicon-log-in"></span> </a></li>-->
+				   <li><a href="#"> </a></li>
+				   <li><a href="#"> </a></li>
+			</ul>
+		</div>
+	  </div>
+	</nav>
+	<!--barra de navegacao-->
+	
+ </body>
+
+<template name="inicial">      
+      <div class="container">
+        <header>
+          <h1>Pagina Principal</h1>
+        </header>
+        
+		<p class="paragrafo" id="home">Bem vindo ao gerenciador de tarefas. <br>
+		Para incluir uma nova tarefa vá em calendario e insira sua tarefa na data desejada.
+		</p>
+		
+	  </div>
+</template>
+
+<template name="tarefas" >
+    <div class="container">
+        <header>
+          <h1>Tarefas</h1>
+        </header>
+		
+		<form class="nova_tarefa">
+          <input type="text" name="text" placeholder="Nova tarefa" />
+        </form>
+		
+    </div>
+</template>
+
+
+<template name="usuario">
+      <div class="container">
+        <header>
+          <h1>Usuario</h1>
+        </header>
+
+        <ul>
+          Detalhes de Usuário
+        </ul>
+      </div>
+</template>
+
+<template name="calendario">
+       <div class="container">
+		
+		<div>
+			<h1>Calendário</h1>
+			<!--<button class="carregar">Carregar</button>-->
+		</div>
+		
+		   <div id="scheduler_here" class="dhx_cal_container" >
+			  <div class="dhx_cal_navline">
+				  <div class="dhx_cal_prev_button"></div>
+				  <div class="dhx_cal_next_button"></div>
+				  <div class="dhx_cal_today_button"></div>
+				  <div class="dhx_cal_date"></div>
+				  <div class="dhx_cal_tab" name="day_tab" style="right:332px;"></div>
+				  <div class="dhx_cal_tab" name="week_tab" style="right:268px;"></div>
+				  <div class="dhx_cal_tab" name="month_tab" style="right:204px;"></div>
+			  </div>
+			  <div class="dhx_cal_header"></div>
+			  <div class="dhx_cal_data"></div>
+		  </div>
+		  
+      </div>
+	  	  
+ </template>

@@ -1,0 +1,37 @@
+
+
+Integrante:
+Alan Gonçalves Pinho
+
+Tema:
+
+• Sistema de Lista de Tarefas a fazer (TODO list)
+
+Páginas Obrigatórias:
+
+• Uma pagina de usuário, contento suas informações
+• Uma página de edição de tarefas
+• Uma página de calendario com as tarefas do usuário atual
+
+Conteúdo dinânimo:
+
+• Adição e edição de ítens e recursos junto ao Meteor (framework handlebars based)
+
+Uso de Ajax:
+
+• Adicionar tarefas
+• Criar/Editar usuários 
+
+
+Opcionais:
+
+• Usar APIs do HTML5                                (3 a 8%)
+• Fazer páginas responsivas (*)                     (5%)
+• Usar preprocessador CSS (*)                       (7%)
+• Usar apis de terceiros existentes                 (1-10%) 
+• Usar um serviço de autenticação de terceiros (*)  (8%)
+• Bootstrap (*)                                     (-8%)  
+• jQuery (**)                                       (-8%) 
+
+* Alguns itens ou partes deles já são implementados pelo meteor
+* Não se sabe se e onde é utilizado, mas é um pré requisito de alguns recursos
